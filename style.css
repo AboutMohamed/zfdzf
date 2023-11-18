@@ -1,0 +1,188 @@
+body {
+    background-image: url('change.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+  h1{
+    position: relative;
+    top: 150px;
+    left: 613px;
+    padding: 10px;
+    color: white;
+    font-family: "Signika Negative"
+  }
+
+  h3{
+    font-size: x-large;
+    width: 520px;
+    position:relative;
+    top: 120px;
+    left: 470px;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: "Signika Negative"
+  }
+
+  .wtc{
+    position: relative;
+    left: 582px;
+    bottom: 300px;
+    width: 150px;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+  }
+
+.inst{
+  border-radius: 20px;
+  width: 36px;
+  position: relative;
+  left: 485px;
+  bottom: 150px;
+}
+  .inst:hover{
+    transition-property: transform;
+    transform: translateY(-10px);
+    transition-duration: 0.4s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    
+  }
+  body {
+    overflow: hidden;
+}
+
+  @keyframes SlideFromTop {
+    from {
+      opacity: 0.1;
+      transform: translateY(-500px)
+
+
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0px)
+
+
+    }
+    
+  }
+
+
+  .heading1{
+    animation-name: SlideFromTop;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+  }
+
+
+@keyframes SlideFromTop1 {
+
+  from{
+    opacity: 0.1;
+    transform: translateY(-500px)
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px)
+
+  }
+  
+}
+
+
+.heading3{
+  animation-name: SlideFromTop1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+@keyframes SlideFromTop2 {
+  from{
+    opacity: 0.1;
+    transform: translateY(-500px)
+
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px)
+  }
+  
+}
+
+
+.inst{
+  animation-name: SlideFromTop2;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes SlideFromTop3 {
+
+  from{
+    opacity: 0.1;
+    transform: translateY(-500px)
+  }
+
+  to{
+    opacity: 1;
+    transform: translateY(0px)
+  }
+  
+}
+
+
+.wtc{
+  animation-name: SlideFromTop3;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.5s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.AboutMe{
+  width: 750px;
+  border: solid;
+  opacity: 0.4;
+  border-radius: 7px;
+  border-width: 4px;
+  padding: 7px;
+  position: relative;
+  left: 275px;
+  top: 170px;
+  color: white;
+  font-family: "Quicksand"
+}
+.AboutMe:hover{
+  opacity: 1.0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.wtc:hover {
+  transform: rotateY(-20deg) rotateX(20deg);
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
